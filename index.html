@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body style="display: flex; flex-direction: row; justify-content: space-evenly;">
     <section style="display: flex; width: 200px; border: 1px solid red; padding: 5px; flex-direction: column;">
     </section>
@@ -16,8 +18,66 @@
     <section style="display: flex; width: 200px; border: 1px solid red; padding: 5px; flex-direction: column;">
     </section>
     <section style="display: flex; width: 200px; border: 1px solid red; padding: 5px; flex-direction: column;">
+      <div id="image">
+        <img src="marvin.jpg" alt="Marvin from Hitchiker's Guide to the Galaxy" />
+      </div>
+      <div id="header">
+      <h3>Ulaş Arda Burak</h3>
+      </div>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil beatae
+        quaerat consequuntur, corporis earum impedit necessitatibus ducimus
+        molestiae reiciendis sed quidem perspiciatis minus totam labore?
+      </p>
+      <div id="author">
+      <p>
+        <em><b>Douglas Adams</b></em>
+      </p>
+      </div>
+      <div id="quote">
+        <blockquote>
+          In the beginning the Universe was created. This has made a lot of people
+          very angry and been widely regarded as a bad move
+        </blockquote>
+      </div>
+      <form>
+        <div id="form">
+          <div id="dropdown_menu">
+            <label for="members">Choose a group member:</label>
+            <select style="width: 100%" name="members" id="members">
+              <option value="Ali">Ali</option>
+              <option value="Ege">Ege</option>
+              <option value="Noor">Noor</option>
+              <option value="Ola">Ola</option>
+              <option value="Ozkan">Ozkan</option>
+              <option value="Ulas">Ulas</option>
+            </select>
+          </div>
+          <div id="text_input">
+            <input style="width: 100%" type="text" placeholder="I think..." />
+          </div>
+          <div id="button">
+            <button style="width: 100%">Save</button>
+          </div>
+    
+          <div id="like_quote">
+            <label for="like_quote">Do you like the quote?</label>
+            <input type="radio" name="like_quote" id="yes" value="yes" checked />
+            <label for="">Yes</label>
+            <br />
+            <input type="radio" name="like_quote" id="" value="no" />
+            <label for="">No</label>
+          </div>
+        </div>
+      </form>
     </section>
     <section style="display: flex; width: 200px; border: 1px solid red; padding: 5px; flex-direction: column;">
     </section>
 </body>
+<style>
+    input {
+        box-sizing: border-box;
+    }
+</style>
+
 </html>
