@@ -1,62 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body style="display: flex; flex-direction: row; justify-content: space-evenly;">
     <section style="display: flex; width: 200px; border: 1px solid red; padding: 5px; flex-direction: column;">
+      <div>
+        <img src="/1644243181856.jpg" alt="mug shot" width="200" height="200">
+    </div>
+    <div>
+        <h1>Ahmet Ege Yılmaz</h1>
+    </div>
+    <div>
+        <p>
+            Do it. Just do it. Don't let your dreams be dreams. Yesterday, you said tomorrow. So just do it. Make your dreams come true. Just do it. Some people dream of success, while you're gonna wake up and work hard at it. Nothing is impossible. You should get to the point where anyone else would quit, and you're not gonna stop there. No, what are you waiting for? Do it! Just do it! Yes you can. Just do it. If you're tired of starting over, stop giving up. <b><i>-Shia LaBeouf</i></b> 
+        </p>
+    </div>
+    <div>
         <div>
-            <img src="/1644243181856.jpg" alt="mug shot" width="200" height="200">
+            <h4><i> Lance Armstrong</i></h4>
         </div>
         <div>
-            <h1>Ahmet Ege Yılmaz</h1>
+            <blockquote>“Pain is temporary. It may last a minute, or an hour, or a day, or a year, but eventually it will subside and something else will take its place. If I quit, however, it lasts forever.”</blockquote>
+        </div>        
+    </div>
+    <div>
+        <div>
+            <label for="selectBox">Choose a group member:</label>
         </div>
         <div>
-            <p>
-                Do it. Just do it. Don't let your dreams be dreams. Yesterday, you said tomorrow. So just do it. Make your dreams come true. Just do it. Some people dream of success, while you're gonna wake up and work hard at it. Nothing is impossible. You should get to the point where anyone else would quit, and you're not gonna stop there. No, what are you waiting for? Do it! Just do it! Yes you can. Just do it. If you're tired of starting over, stop giving up. <b><i>-Shia LaBeouf</i></b> 
-            </p>
+            <select style="width: 200px;" name="selectBox" id="selectBox">
+            <option value="">Ahmet Ege Yılmaz</option>
+            <option value="">Ali Hejazi</option>
+            <option value="">Noor Shal</option>
+            <option value="">Ola Sabouh</option>
+            <option value="">Özkan Yılmaz</option>
+            <option value="">Ulaş Arda Burak</option>
+        </select>
         </div>
         <div>
-            <div>
-                <h4><i> Lance Armstrong</i></h4>
-            </div>
-            <div>
-                <blockquote>“Pain is temporary. It may last a minute, or an hour, or a day, or a year, but eventually it will subside and something else will take its place. If I quit, however, it lasts forever.”</blockquote>
-            </div>        
+            <div><input style="width: 192px;" type="text" name="textBox" id="" placeholder="Placeholder..."></div>
+            <div><button type="submit" style="width: 200px;">Save</button></div>
+        </div>            
+    </div>
+    <div>
+        <div>
+            <label for="radioButton">Do you like the quote?</label>
         </div>
         <div>
-            <div>
-                <label for="selectBox">Choose a group member:</label>
-            </div>
-            <div>
-                <select style="width: 200px;" name="selectBox" id="selectBox">
-                <option value="">Ahmet Ege Yılmaz</option>
-                <option value="">Ali Hejazi</option>
-                <option value="">Noor Shal</option>
-                <option value="">Ola Sabouh</option>
-                <option value="">Özkan Yılmaz</option>
-                <option value="">Ulaş Arda Burak</option>
-            </select>
-            </div>
-            <div>
-                <div><input style="width: 192px;" type="text" name="textBox" id="" placeholder="Placeholder..."></div>
-                <div><button type="submit" style="width: 200px;">Save</button></div>
-            </div>            
+            <input type="radio" name="radioButton" id="radioButtonYes">Yes
         </div>
         <div>
-            <div>
-                <label for="radioButton">Do you like the quote?</label>
-            </div>
-            <div>
-                <input type="radio" name="radioButton" id="radioButtonYes">Yes
-            </div>
-            <div>
-                <input type="radio" name="radioButton" id="radioButtonNo">No
-            </div>
+            <input type="radio" name="radioButton" id="radioButtonNo">No
         </div>
+    </div>
     </section>
     <section style="display: flex; width: 200px; border: 1px solid red; padding: 5px; flex-direction: column;">
     </section>
@@ -65,8 +67,48 @@
     <section style="display: flex; width: 200px; border: 1px solid red; padding: 5px; flex-direction: column;">
     </section>
     <section style="display: flex; width: 200px; border: 1px solid red; padding: 5px; flex-direction: column;">
+        <img src="marvin.jpg" alt="Marvin from Hitchiker's Guide to the Galaxy" />
+
+        <div id="header">
+          <h3>Ulaş Arda Burak</h3>
+        </div>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil beatae
+          quaerat consequuntur, corporis earum impedit necessitatibus ducimus
+          molestiae reiciendis sed quidem perspiciatis minus totam labore?
+        </p>
+        <div id="author">
+          <em><b>Douglas Adams</b></em>
+        </div>
+        <div id="quote">
+          <blockquote>
+            In the beginning the Universe was created. This has made a lot of
+            people very angry and been widely regarded as a bad move
+          </blockquote>
+        </div>
+        <label for="members">Choose a group member:</label>
+        <select name="members" id="members">
+          <option value="Ali">Ali</option>
+          <option value="Ege">Ege</option>
+          <option value="Noor">Noor</option>
+          <option value="Ola">Ola</option>
+          <option value="Ozkan">Ozkan</option>
+          <option value="Ulas">Ulas</option>
+        </select>
+        <input type="text" placeholder="I think..." />
+        <button>Save</button>
+        <div id="like_quote">
+          <label for="like_quote">Do you like the quote?</label><br />
+          <input type="radio" name="like_quote" value="yes" />
+          <label for="like_quote">Yes</label>
+          <br />
+          <input type="radio" name="like_quote" value="no" />
+          <label for="like_quote">No</label>
+        </div>
     </section>
     <section style="display: flex; width: 200px; border: 1px solid red; padding: 5px; flex-direction: column;">
     </section>
 </body>
+
+
 </html>
